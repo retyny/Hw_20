@@ -1,0 +1,45 @@
+
+.wrapper {
+    width: 800px;
+    margin: 0 auto;
+}
+.img_list{
+    display: flex;
+}
+
+.imgElem{
+    width: 200px;
+    height: 200px;
+}
+
+.hide {
+    display: none;
+}
+
+.alert_zone {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgb(0,0,0, .5);
+}
+
+.modal_close {
+    position: absolute;
+    margin-left: 59em;
+    margin-top: 12em;
+    color: black;
+    cursor: pointer;
+
+}
+
+.imgModalElem{
+    width: 400px;
+    height: 400px;
+    margin-left: 568px;
+    margin-top: 180px;
+}
+.alert_content {
+    width: 720px;
+ }
