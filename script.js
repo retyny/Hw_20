@@ -11,7 +11,7 @@
         imgDB.map((value, index) => {
             if(value) {
                 const imgList = document.getElementById("imgList");
-                // Новый элемент
+                // Новый элемент Старый дед
                 const newImg = document.createElement('div');
                 newImg.className = 'imgHouse';
                 //Вставляем элемент
